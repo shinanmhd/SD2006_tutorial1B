@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="18dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:padding="10dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chkItemOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItemOne"
+        />
+
+    <CheckBox
+        android:id="@+id/chkItemTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItemTwo"
+        />
+
+    <CheckBox
+        android:id="@+id/chkItemThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItemThree"
+        />
+
+    <CheckBox
+        android:id="@+id/chkItemFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItemFour"
+        />
+
+    <CheckBox
+        android:id="@+id/chkItemFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtItemFive"
+        />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnText" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="14dp"
+        >
+        <TextView
+            android:id="@+id/txtAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@color/light_gray"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:hint="@string/txtAnswerHint"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

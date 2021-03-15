@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Checkbox Assessment</string>
+    <string name="txtTitle">Choose the items you want</string>
+    <string name="txtItemOne">Coffee (MVR 20)</string>
+    <string name="txtItemTwo">Tea (MVR 10)</string>
+    <string name="txtItemThree">Sandwich (MVR 35)</string>
+    <string name="txtItemFour">Ice Cream (MVR 30)</string>
+    <string name="txtItemFive">Juice (MVR 25)</string>
+    <string name="btnText">Total Price</string>
+    <string name="txtAnswerHint">Your Total is...</string>
+</resources>
